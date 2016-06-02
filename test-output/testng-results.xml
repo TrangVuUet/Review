@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="103854" started-at="2016-03-01T08:18:25Z" finished-at="2016-03-01T08:20:09Z">
+    <groups>
+    </groups>
+    <test name="IETest" duration-ms="3340" started-at="2016-03-01T08:18:25Z" finished-at="2016-03-01T08:18:28Z">
+      <class name="test.TC_Signup_IE">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.TC_Signup_IE@6cd8737]" name="beforeTest" is-config="true" duration-ms="3326" started-at="2016-03-01T00:18:25Z" finished-at="2016-03-01T00:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TC_Signup_IE@6cd8737]" name="afterTest" is-config="true" duration-ms="14" started-at="2016-03-01T00:18:28Z" finished-at="2016-03-01T00:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.TC_Signup_IE -->
+    </test> <!-- IETest -->
+    <test name="ChromeTest" duration-ms="56775" started-at="2016-03-01T08:18:25Z" finished-at="2016-03-01T08:19:22Z">
+      <class name="test.TC_Signup_ChromeFirefox">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.TC_Signup_ChromeFirefox@d041cf]" name="beforeTest" is-config="true" duration-ms="2663" started-at="2016-03-01T00:18:25Z" finished-at="2016-03-01T00:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signup_tc()[pri:0, instance:test.TC_Signup_ChromeFirefox@d041cf]" name="signup_tc" duration-ms="52751" started-at="2016-03-01T00:18:28Z" finished-at="2016-03-01T00:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_tc -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TC_Signup_ChromeFirefox@d041cf]" name="afterTest" is-config="true" duration-ms="1352" started-at="2016-03-01T00:19:20Z" finished-at="2016-03-01T00:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.TC_Signup_ChromeFirefox -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="103854" started-at="2016-03-01T08:18:25Z" finished-at="2016-03-01T08:20:09Z">
+      <class name="test.TC_Signup_ChromeFirefox">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.TC_Signup_ChromeFirefox@17f6480]" name="beforeTest" is-config="true" duration-ms="25489" started-at="2016-03-01T00:18:25Z" finished-at="2016-03-01T00:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signup_tc()[pri:0, instance:test.TC_Signup_ChromeFirefox@17f6480]" name="signup_tc" duration-ms="76164" started-at="2016-03-01T00:18:50Z" finished-at="2016-03-01T00:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_tc -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TC_Signup_ChromeFirefox@17f6480]" name="afterTest" is-config="true" duration-ms="2199" started-at="2016-03-01T00:20:07Z" finished-at="2016-03-01T00:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.TC_Signup_ChromeFirefox -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
